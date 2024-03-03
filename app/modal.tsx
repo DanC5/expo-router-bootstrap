@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function ModalScreen() {
+const ModalScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Modal</Text>
     </View>
   );
-}
+};
+
+export default ModalScreen;
 
 const styles = StyleSheet.create({
   container: {

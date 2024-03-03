@@ -1,12 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function TabTwoScreen() {
+const TabTwoScreen: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Tab Two</Text>
     </View>
   );
-}
+};
+
+export default TabTwoScreen;
 
 const styles = StyleSheet.create({
   container: {
